@@ -12,8 +12,14 @@ package com.softserveinc;
     Coffee is ready!
  */
 public class Task01 {
-    public static void main(String[] args) {
-        // TODO: Write your code here
-
+    public String MakeCoffee(){
+        String prepare = "Starting to make a coffee\n" +
+                "Grinding coffee beans\n" +
+                "Boiling water\n" +
+                "Mixing boiled water with crushed coffee beans\n" +
+                "Pouring coffee into the cup\n" +
+                "Pouring some milk into the cup\n" +
+                "Coffee is ready!";
+        return prepare;
     }
 }

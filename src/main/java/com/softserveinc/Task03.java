@@ -1,11 +1,15 @@
 package com.softserveinc;
 
-import java.util.Scanner;
-
 public class Task03 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        // TODO: Write your code here
-
+    public int MaxCups(int water, int milk, int beans){
+        double enoughCups;
+        double roundedWaterCups;
+        double roundedMilkCups;
+        double roundedBeansCups;
+        roundedWaterCups = Math.floor(water/200);
+        roundedMilkCups = Math.floor(milk/50);
+        roundedBeansCups = Math.floor(beans/15);
+        enoughCups = Math.min(roundedWaterCups,Math.min(roundedMilkCups,roundedBeansCups));
+        return (int)enoughCups;
     }
 }

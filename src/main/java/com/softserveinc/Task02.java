@@ -31,9 +31,16 @@ import java.util.Scanner;
     1875 g of coffee beans
  */
 public class Task02 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        // TODO: Write your code here
-
-    }
+    public int CalcWater(int cupsN){
+        int waterN = cupsN*200;
+        return waterN;
+    };
+    public int CalcMilk(int cupsN){
+        int milkN = cupsN*50;
+        return milkN;
+    };
+    public int CalcBeans(int cupsN){
+        int beansN = cupsN*15;
+        return beansN;
+    };
 }
