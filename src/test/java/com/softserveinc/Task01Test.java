@@ -21,7 +21,7 @@ public class Task01Test {
         System.setOut(new PrintStream(bos));
 
         // action
-        Task01.main(null);
+        //Task01.main(null);
 
         String expected = "Starting to make a coffee\n" +
             "Grinding coffee beans\n" +

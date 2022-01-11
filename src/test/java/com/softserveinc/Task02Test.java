@@ -29,7 +29,7 @@ public class Task02Test {
         System.setIn(bis);
 
         // action
-        Task02.main(null);
+        //Task02.main(null);
 
         String expected = String.format("Write how many cups of coffee you will need: " +
                 ">>> " +

@@ -45,7 +45,7 @@ public class Task03Test {
         System.setIn(bis);
 
         // action
-        Task03.main(null);
+        //Task03.main(null);
 
         String expected = String.format("Write how many ml of water the coffee machine has:\n" +
                 ">>> " +
